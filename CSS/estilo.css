@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Wix Madefor Display', sans-serif;
+}
+
+body{
+    background-image: url(./fotos/background.png);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.navbar a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    padding: 0 10%;
+    margin-top: 200px;
+}
+
+.presentacion{
+    max-width: auto;
+}
+
+.presentacion h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #E8BC1A;
+   
+}
+
+.presentacion h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+
+.presentacion p{
+    max-width: 700px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    border: #E8BC1A 7px double;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.redes{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #E8BC1A;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #E8BC1A;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    position:absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    
+}
+
+.btn a{
+    display: inline-flex;
+    background: transparent;
+    border: 4px double #E8BC1A;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #E8BC1A;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn:hover{
+    transform:scale(1.02,1.02);
+}
